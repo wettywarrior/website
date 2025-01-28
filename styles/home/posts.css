@@ -1,0 +1,174 @@
+
+.post-infeed {
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-line-top {
+  position: relative;
+  height: 1px;
+  border-top-color: rgba(255, 255, 255, 0.2);
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin-bottom: 20px;
+  width: 900px;
+  margin-top: 20px;
+}
+
+
+
+.post-first-layout {
+  height: 700px;
+  width: 900px;
+  margin-bottom: -90px;
+}
+
+.post-layout {
+  margin-top: 30px;
+  height: 700px;
+  width: 900px;
+  margin-bottom: -90px;
+}
+
+.post-top-layout {
+  display: grid;
+  grid-template-columns: 50px auto auto 1fr;
+  margin-bottom: 5px;
+}
+
+.post-profile-image-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.post-profile-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-left: -8px;
+  margin-top: -3px;
+}
+
+.post-username-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin-top: 4px;
+  margin-left: -7px;
+  display: flex;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100%;
+  font-size: 16px;
+  height: 18px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.post-middle-dot {
+  font-size: 30px;
+  margin-top: -5px;
+  margin-bottom: 0px;
+}
+
+.post-follow-button {
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 149, 246);
+  font-size: 12px;
+  font-weight: bold;
+  width: 40px;
+  height: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+
+
+.post-image {
+  margin-bottom: 10px;
+}
+
+.post-bottom-icons-container {
+  display: grid;
+  grid-template-columns: 22px 19px 13px 20px 1fr;
+  column-gap: 15px;
+  margin-bottom: 10px;
+}
+
+.post-like-container,
+.post-comment-container,
+.post-bookmark-container,
+.post-store-container {
+  position: relative;
+}
+
+
+.post-like-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.post-like-icon {
+  width: 24px;
+  margin-left: -4px;
+}
+
+.post-comment-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.post-comment-icon {
+  width: 21px;
+  margin-left: -5px;
+  margin-top: -1px;
+}
+
+.post-bookmark-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.post-bookmark-icon {
+  width: 16px;
+  margin-left: -4px;
+  margin-top: -1px;
+}
+
+.post-store-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.post-store-icon {
+  width: 18px;
+  margin-left: -1px;
+  margin-top: -2px;
+}
+
+
+.post-line-between {
+  height: 1px;
+  border-top-color: rgba(255, 255, 255, 0.2);
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin-bottom: 1000px;
+  width: 900px;
+}
+

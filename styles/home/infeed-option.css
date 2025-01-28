@@ -1,0 +1,116 @@
+.infeed-option-dropdown {
+  position: absolute;
+  margin-left: 38px;
+  display: block;
+  left: -45px;
+  top: -42px;
+}
+
+.infeed-option-dropdown-displayed-text {
+  margin-left: 10px;
+  background-color: transparent;
+  color: rgb(139, 162, 173);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.infeed-option-dropdown-displayed-text:hover {
+  background-color: rgb(42, 50, 54);
+}
+
+.infeed-option-dropdown-arrow {
+  margin-left: 2px;
+  margin-bottom: 2px;
+  width: 9px;
+}
+
+.infeed-option-dropdown:hover .infeed-option-dropdown-sort-by,
+.infeed-option-dropdown:hover .infeed-option-dropdown-for-you,
+.infeed-option-dropdown:hover .infeed-option-dropdown-following,
+.infeed-option-dropdown:hover .infeed-option-dropdown-top,
+.infeed-option-dropdown:hover .infeed-option-dropdown-new {
+  display: block
+}
+
+.infeed-option-dropdown-for-you:hover,
+.infeed-option-dropdown-following:hover,
+.infeed-option-dropdown-top:hover,
+.infeed-option-dropdown-new:hover {
+  background-color: rgb(42, 50, 54);
+}
+
+
+
+.infeed-option-dropdown-sort-by {
+  display: none;
+  color: white;
+  padding: 16px;
+  padding-left: 18.5px;
+  padding-right: 18.5px;
+  background-color: rgb(24, 28, 31);
+  font-weight: bold;
+  border-color: transparent;  
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-left: 7px;
+
+}
+
+.infeed-option-dropdown-for-you {
+  display: none;
+  color: white;
+  border: none;
+  padding: 16px;
+  padding-left: 21px;
+  padding-right: 21px;
+  cursor: pointer;
+  background-color: rgb(24, 28, 31);
+  margin-left: 7px;
+}
+
+
+.infeed-option-dropdown-following {
+  display: none;
+  color: white;
+  border: none;
+  padding: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  background-color: rgb(24, 28, 31);
+  margin-left: 7px;
+}
+
+.infeed-option-dropdown-top {
+  display: none;
+  color: white;
+  border: none;
+  padding: 16px;
+  padding-left: 33px;
+  padding-right: 33px;
+  cursor: pointer;
+  background-color: rgb(24, 28, 31);
+  margin-left: 7px;
+
+}
+
+.infeed-option-dropdown-new {
+  display: none;
+  color: white;
+  border: none;
+  padding: 16px;
+  padding-left: 30.5px;
+  padding-right: 30.5px;
+  cursor: pointer;
+  background-color: rgb(24, 28, 31);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: 7px;
+}

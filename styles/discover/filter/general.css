@@ -1,0 +1,184 @@
+.category-content::-webkit-scrollbar {
+  width: 7px;
+}
+
+.category-content::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+.filter-content {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-content-display {
+  height: 1px;
+  border-top-color: rgba(255, 255, 255, 0.2);
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin-top: 27px;
+  margin-bottom: 20px;
+  width: 909.936px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-button {
+  color: white;
+  height: 30px;
+  width: 93px;
+  height: 33px;
+  border: none;
+  margin-top: -43px;
+  background-color: transparent;
+  background-color: rgb(42, 50, 54);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  ;
+}
+
+.filter-button:hover {
+  background-color: rgb(25,28,31);
+}
+
+.filter-button-text {
+  margin-left: -24px;
+  font-weight: bold;
+}
+
+.filter-button-icon-container {
+  position: relative;
+  right: -24px;
+  top: -15px;
+}
+
+.filter-button-icon {
+  height: 15px;
+}
+
+.filter {
+  border-radius: 25px;
+  position: fixed;
+  background-color: rgb(25,28,31);
+  height: 600px;
+  width: 500px;
+  top : 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.filter-options {
+  display: flex;
+  margin-left: 12.5px;
+  margin-top: 12.5px;
+  height: 55px;
+  width: 475px;
+  background-color: rgb(42, 50, 54);
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-category-button, .filter-size-button, .filter-color-button, .filter-price-button {
+  color: white;
+  height: 30px;
+  width: 80px;
+  height: 33px;
+  border: solid;
+  border-width: 2px;
+  background-color: transparent;
+  background-color: rgb(25,28,31);
+  cursor: pointer;
+  border-radius: 16px;
+  margin-right: 5px;
+  border-color: transparent;
+}
+
+.filter-size-button {
+  width: 55px;
+}
+
+.filter-color-button {
+  width: 60px;
+}
+
+.filter-price-button {
+  width: 60px;
+}
+
+
+.category-content {
+  display: flex;
+  margin-left: 12.5px;
+  margin-top: 12.5px;
+  height: 505px;
+  width: 475px;
+  background-color: rgb(42, 50, 54);
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.filter-current-tab-positioning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-current-tab {
+  margin-top: 15px;
+  margin-bottom: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight:500;
+  font-size: 15px;
+  border-bottom: solid;
+  padding-bottom: 15px;
+  width: 425px;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-close-button {
+  right: 35px;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+}
+
+.filter-close-icon {
+  height: 12px;
+  margin-top: 1px;
+  margin-left: -4px;
+}
+
+.filter-back-button
+{
+  display: none;
+  left: 35px;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-back-icon
+{
+  margin-top: 3px;
+  height: 12px;
+}
+
