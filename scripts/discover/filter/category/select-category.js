@@ -397,6 +397,158 @@ menSportswearTopsOther.addEventListener("click", function () {
   selectedProduct = "menSportswearTopsOther"; 
 });
 
+// men sportswear bottoms
+
+menSportswearBottomsShorts.addEventListener("click", function () { 
+  selectProduct(); 
+  menSportswearBottomsShortsSelect.style.display = "none"; 
+  menSportswearBottomsShortsSelected.style.display = "block"; 
+  selectedProduct = "menSportswearBottomsShorts"; 
+});
+
+menSportswearBottomsJoggers.addEventListener("click", function () { 
+  selectProduct(); 
+  menSportswearBottomsJoggersSelect.style.display = "none"; 
+  menSportswearBottomsJoggersSelected.style.display = "block"; 
+  selectedProduct = "menSportswearBottomsJoggers"; 
+});
+
+menSportswearBottomsLeggings.addEventListener("click", function () { 
+  selectProduct(); 
+  menSportswearBottomsLeggingsSelect.style.display = "none"; 
+  menSportswearBottomsLeggingsSelected.style.display = "block"; 
+  selectedProduct = "menSportswearBottomsLeggings"; 
+});
+
+menSportswearBottomsCompressionShorts.addEventListener("click", function () { 
+  selectProduct(); 
+  menSportswearBottomsCompressionShortsSelect.style.display = "none"; 
+  menSportswearBottomsCompressionShortsSelected.style.display = "block"; 
+  selectedProduct = "menSportswearBottomsCompressionShorts"; 
+});
+
+menSportswearBottomsOther.addEventListener("click", function () { 
+  selectProduct(); 
+  menSportswearBottomsOtherSelect.style.display = "none"; 
+  menSportswearBottomsOtherSelected.style.display = "block"; 
+  selectedProduct = "menSportswearBottomsOther"; 
+});
+
+
+// men nightwear
+
+menNightwearOnePiecePyjamas.addEventListener("click", function () {
+  selectProduct();
+  menNightwearOnePiecePyjamasSelect.style.display = "none";
+  menNightwearOnePiecePyjamasSelected.style.display = "block";
+  selectedProduct = "menNightwearOnePiecePyjamas";
+});
+
+menNightwearPyjamaSets.addEventListener("click", function () {
+  selectProduct();
+  menNightwearPyjamaSetsSelect.style.display = "none";
+  menNightwearPyjamaSetsSelected.style.display = "block";
+  selectedProduct = "menNightwearPyjamaSets";
+});
+
+menNightwearPyjamaBottoms.addEventListener("click", function () {
+  selectProduct();
+  menNightwearPyjamaBottomsSelect.style.display = "none";
+  menNightwearPyjamaBottomsSelected.style.display = "block";
+  selectedProduct = "menNightwearPyjamaBottoms";
+});
+
+menNightwearPyjamaTops.addEventListener("click", function () {
+  selectProduct();
+  menNightwearPyjamaTopsSelect.style.display = "none";
+  menNightwearPyjamaTopsSelected.style.display = "block";
+  selectedProduct = "menNightwearPyjamaTops";
+});
+
+menNightwearOnesies.addEventListener("click", function () {
+  selectProduct();
+  menNightwearOnesiesSelect.style.display = "none";
+  menNightwearOnesiesSelected.style.display = "block";
+  selectedProduct = "menNightwearOnesies";
+});
+
+menNightwearOther.addEventListener("click", function () {
+  selectProduct();
+  menNightwearOtherSelect.style.display = "none";
+  menNightwearOtherSelected.style.display = "block";
+  selectedProduct = "menNightwearOther";
+});
+
+// men underwear
+
+menUnderwearBoxers.addEventListener("click", function () {
+  selectProduct();
+  menUnderwearBoxersSelect.style.display = "none";
+  menUnderwearBoxersSelected.style.display = "block";
+  selectedProduct = "menUnderwearBoxers";
+});
+
+menUnderwearBriefs.addEventListener("click", function () {
+  selectProduct();
+  menUnderwearBriefsSelect.style.display = "none";
+  menUnderwearBriefsSelected.style.display = "block";
+  selectedProduct = "menUnderwearBriefs";
+});
+
+menUnderwearSocks.addEventListener("click", function () {
+  selectProduct();
+  menUnderwearSocksSelect.style.display = "none";
+  menUnderwearSocksSelected.style.display = "block";
+  selectedProduct = "menUnderwearSocks";
+});
+
+menUnderwearOther.addEventListener("click", function () {
+  selectProduct();
+  menUnderwearOtherSelect.style.display = "none";
+  menUnderwearOtherSelected.style.display = "block";
+  selectedProduct = "menUnderwearOther";
+});
+
+// men swimwear
+
+menSwimwearSwimShorts.addEventListener("click", function () {
+  selectProduct();
+  menSwimwearSwimShortsSelect.style.display = "none";
+  menSwimwearSwimShortsSelected.style.display = "block";
+  selectedProduct = "menSwimwearSwimShorts";
+});
+
+menSwimwearSwimTops.addEventListener("click", function () {
+  selectProduct();
+  menSwimwearSwimTopsSelect.style.display = "none";
+  menSwimwearSwimTopsSelected.style.display = "block";
+  selectedProduct = "menSwimwearSwimTops";
+});
+
+menSwimwearSwimSets.addEventListener("click", function () {
+  selectProduct();
+  menSwimwearSwimSetsSelect.style.display = "none";
+  menSwimwearSwimSetsSelected.style.display = "block";
+  selectedProduct = "menSwimwearSwimSets";
+});
+
+menSwimwearWetsuits.addEventListener("click", function () {
+  selectProduct();
+  menSwimwearWetsuitsSelect.style.display = "none";
+  menSwimwearWetsuitsSelected.style.display = "block";
+  selectedProduct = "menSwimwearWetsuits";
+});
+
+menSwimwearOther.addEventListener("click", function () {
+  selectProduct();
+  menSwimwearOtherSelect.style.display = "none";
+  menSwimwearOtherSelected.style.display = "block";
+  selectedProduct = "menSwimwearOther";
+});
+
+
+
+
 
 
 

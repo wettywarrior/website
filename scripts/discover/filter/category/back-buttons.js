@@ -40,6 +40,18 @@ function filterBackButtonFunction() {
   } else if(filterActiveTabBack === "menClothingSportswearTops"){
     hideMenSportswearTopsPage()
     renderMenSportswearPage()
+  } else if(filterActiveTabBack === "menClothingSportswearBottoms"){
+    hideMenSportswearBottomsPage()
+    renderMenSportswearPage()
+  } else if(filterActiveTabBack === "menClothingNightwear"){
+    hideMenNightwearPage()
+    renderMenClothingPage()
+  } else if(filterActiveTabBack === "menClothingUnderwear"){
+    hideMenUnderwearPage()
+    renderMenClothingPage()
+  } else if(filterActiveTabBack === "menClothingSwimwear"){
+    hideMenSwimwearPage()
+    renderMenClothingPage()
   }
 }
 

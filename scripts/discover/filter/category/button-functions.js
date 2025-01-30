@@ -54,6 +54,30 @@ menSportswearTops.addEventListener("click", function () {
   renderMenSportswearTopsPage()
 });
 
+menSportswearBottoms.addEventListener("click", function () {
+  hideMenSportswearPage()
+  renderMenSportswearBottomsPage()
+});
+
+menNightwear.addEventListener("click", function () {
+  hideMenClothingPage()
+  renderMenNightwearPage()
+});
+
+menUnderwear.addEventListener("click", function () {
+  hideMenClothingPage()
+  renderMenUnderwearPage()
+});
+
+menSwimwear.addEventListener("click", function () {
+  hideMenClothingPage()
+  renderMenSwimwearPage()
+});
+
+
+
+
+
 
 
 // women section

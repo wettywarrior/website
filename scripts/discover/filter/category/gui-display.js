@@ -56,6 +56,26 @@ function selectProduct() {
   menSportswearTopsCompressionSelect.style.display = "block";
   menSportswearTopsJerseysSelect.style.display = "block";
   menSportswearTopsOtherSelect.style.display = "block";
+  menSportswearBottomsShortsSelect.style.display = "block";
+  menSportswearBottomsJoggersSelect.style.display = "block";
+  menSportswearBottomsLeggingsSelect.style.display = "block";
+  menSportswearBottomsCompressionShortsSelect.style.display = "block";
+  menSportswearBottomsOtherSelect.style.display = "block";
+  menNightwearOnePiecePyjamasSelect.style.display = "block";
+  menNightwearPyjamaSetsSelect.style.display = "block";
+  menNightwearPyjamaBottomsSelect.style.display = "block";
+  menNightwearPyjamaTopsSelect.style.display = "block";
+  menNightwearOnesiesSelect.style.display = "block";
+  menNightwearOtherSelect.style.display = "block";
+  menUnderwearBoxersSelect.style.display = "block";
+  menUnderwearBriefsSelect.style.display = "block";
+  menUnderwearSocksSelect.style.display = "block";
+  menUnderwearOtherSelect.style.display = "block";
+  menSwimwearSwimShortsSelect.style.display = "block";
+  menSwimwearSwimTopsSelect.style.display = "block";
+  menSwimwearSwimSetsSelect.style.display = "block";
+  menSwimwearWetsuitsSelect.style.display = "block";
+  menSwimwearOtherSelect.style.display = "block";
 
 
   menFancyDressSelected.style.display = "none";
@@ -113,6 +133,26 @@ function selectProduct() {
   menSportswearTopsCompressionSelected.style.display = "none";
   menSportswearTopsJerseysSelected.style.display = "none";
   menSportswearTopsOtherSelected.style.display = "none";
+  menSportswearBottomsShortsSelected.style.display = "none";
+  menSportswearBottomsJoggersSelected.style.display = "none";
+  menSportswearBottomsLeggingsSelected.style.display = "none";
+  menSportswearBottomsCompressionShortsSelected.style.display = "none";
+  menSportswearBottomsOtherSelected.style.display = "none";
+  menNightwearOnePiecePyjamasSelected.style.display = "none";
+  menNightwearPyjamaSetsSelected.style.display = "none";
+  menNightwearPyjamaBottomsSelected.style.display = "none";
+  menNightwearPyjamaTopsSelected.style.display = "none";
+  menNightwearOnesiesSelected.style.display = "none";
+  menNightwearOtherSelected.style.display = "none";
+  menUnderwearBoxersSelected.style.display = "none";
+  menUnderwearBriefsSelected.style.display = "none";
+  menUnderwearSocksSelected.style.display = "none";
+  menUnderwearOtherSelected.style.display = "none";
+  menSwimwearSwimShortsSelected.style.display = "none";
+  menSwimwearSwimTopsSelected.style.display = "none";
+  menSwimwearSwimSetsSelected.style.display = "none";
+  menSwimwearWetsuitsSelected.style.display = "none";
+  menSwimwearOtherSelected.style.display = "none";
 }
 
 
@@ -382,7 +422,7 @@ function renderMenSportswearTopsPage() {
   menSportswearTopsCompression.style.display = "flex";
   menSportswearTopsJerseys.style.display = "flex";
   menSportswearTopsOther.style.display = "flex";
-  filterCurrentTab.innerHTML = "Tops";
+  filterCurrentTab.innerHTML = "Sportswear Tops";
   filterActiveTabBack = "menClothingSportswearTops";
   checkFilterActiveTab();
 }
@@ -394,3 +434,91 @@ function hideMenSportswearTopsPage() {
   menSportswearTopsJerseys.style.display = "none";
   menSportswearTopsOther.style.display = "none";
 }
+
+// men sportswear bottoms page
+
+function renderMenSportswearBottomsPage() {
+  menSportswearBottomsShorts.style.display = "flex";
+  menSportswearBottomsJoggers.style.display = "flex";
+  menSportswearBottomsLeggings.style.display = "flex";
+  menSportswearBottomsCompressionShorts.style.display = "flex";
+  menSportswearBottomsOther.style.display = "flex";
+  filterCurrentTab.innerHTML = "Sportswear Bottoms";
+  filterActiveTabBack = "menClothingSportswearBottoms";
+  checkFilterActiveTab();
+}
+
+function hideMenSportswearBottomsPage() {
+  menSportswearBottomsShorts.style.display = "none";
+  menSportswearBottomsJoggers.style.display = "none";
+  menSportswearBottomsLeggings.style.display = "none";
+  menSportswearBottomsCompressionShorts.style.display = "none";
+  menSportswearBottomsOther.style.display = "none";
+}
+
+
+// men nightwear page
+
+function renderMenNightwearPage() {
+  menNightwearOnePiecePyjamas.style.display = "flex";
+  menNightwearPyjamaSets.style.display = "flex";
+  menNightwearPyjamaBottoms.style.display = "flex";
+  menNightwearPyjamaTops.style.display = "flex";
+  menNightwearOnesies.style.display = "flex";
+  menNightwearOther.style.display = "flex";
+  filterCurrentTab.innerHTML = "Nightwear";
+  filterActiveTabBack = "menClothingNightwear";
+  checkFilterActiveTab();
+}
+
+function hideMenNightwearPage() {
+  menNightwearOnePiecePyjamas.style.display = "none";
+  menNightwearPyjamaSets.style.display = "none";
+  menNightwearPyjamaBottoms.style.display = "none";
+  menNightwearPyjamaTops.style.display = "none";
+  menNightwearOnesies.style.display = "none";
+  menNightwearOther.style.display = "none";
+}
+
+
+// men underwear
+
+function renderMenUnderwearPage() {
+  menUnderwearBoxers.style.display = "flex";
+  menUnderwearBriefs.style.display = "flex";
+  menUnderwearSocks.style.display = "flex";
+  menUnderwearOther.style.display = "flex";
+  filterCurrentTab.innerHTML = "Underwear";
+  filterActiveTabBack = "menClothingUnderwear";
+  checkFilterActiveTab();
+}
+
+function hideMenUnderwearPage() {
+  menUnderwearBoxers.style.display = "none";
+  menUnderwearBriefs.style.display = "none";
+  menUnderwearSocks.style.display = "none";
+  menUnderwearOther.style.display = "none";
+}
+
+
+// men swimwear
+
+function renderMenSwimwearPage() {
+  menSwimwearSwimShorts.style.display = "flex";
+  menSwimwearSwimTops.style.display = "flex";
+  menSwimwearSwimSets.style.display = "flex";
+  menSwimwearWetsuits.style.display = "flex";
+  menSwimwearOther.style.display = "flex";
+  filterCurrentTab.innerHTML = "Swimwear";
+  filterActiveTabBack = "menClothingSwimwear";
+  checkFilterActiveTab();
+}
+
+function hideMenSwimwearPage() {
+  menSwimwearSwimShorts.style.display = "none";
+  menSwimwearSwimTops.style.display = "none";
+  menSwimwearSwimSets.style.display = "none";
+  menSwimwearWetsuits.style.display = "none";
+  menSwimwearOther.style.display = "none";
+}
+

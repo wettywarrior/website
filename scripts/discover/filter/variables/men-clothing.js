@@ -239,10 +239,101 @@ const menSportswearTopsCompressionSelect = document.querySelector(".men-sportswe
 const menSportswearTopsJerseysSelect = document.querySelector(".men-sportswear-tops-jerseys-select-icon");
 const menSportswearTopsOtherSelect = document.querySelector(".men-sportswear-tops-other-select-icon");
 
-// men sportswear Tops select buttons
+// men sportswear tops select buttons
 
 const menSportswearTopsTshirtsSelected = document.querySelector(".men-sportswear-tops-tshirts-selected-icon");
 const menSportswearTopsTanktopsSelected = document.querySelector(".men-sportswear-tops-tanktops-selected-icon");
 const menSportswearTopsCompressionSelected = document.querySelector(".men-sportswear-tops-compression-selected-icon");
 const menSportswearTopsJerseysSelected = document.querySelector(".men-sportswear-tops-jerseys-selected-icon");
 const menSportswearTopsOtherSelected = document.querySelector(".men-sportswear-tops-other-selected-icon");
+
+
+// men sportswear bottoms
+const menSportswearBottomsShorts = document.querySelector(".category-men-sportswear-bottoms-shorts");
+const menSportswearBottomsJoggers = document.querySelector(".category-men-sportswear-bottoms-joggers");
+const menSportswearBottomsLeggings = document.querySelector(".category-men-sportswear-bottoms-leggings");
+const menSportswearBottomsCompressionShorts = document.querySelector(".category-men-sportswear-bottoms-compression-shorts");
+const menSportswearBottomsOther = document.querySelector(".category-men-sportswear-bottoms-other");
+
+// men sportswear bottoms select buttons
+const menSportswearBottomsShortsSelect = document.querySelector(".men-sportswear-bottoms-shorts-select-icon");
+const menSportswearBottomsJoggersSelect = document.querySelector(".men-sportswear-bottoms-joggers-select-icon");
+const menSportswearBottomsLeggingsSelect = document.querySelector(".men-sportswear-bottoms-leggings-select-icon");
+const menSportswearBottomsCompressionShortsSelect = document.querySelector(".men-sportswear-bottoms-compression-shorts-select-icon");
+const menSportswearBottomsOtherSelect = document.querySelector(".men-sportswear-bottoms-other-select-icon");
+
+// men sportswear bottoms selected buttons
+const menSportswearBottomsShortsSelected = document.querySelector(".men-sportswear-bottoms-shorts-selected-icon");
+const menSportswearBottomsJoggersSelected = document.querySelector(".men-sportswear-bottoms-joggers-selected-icon");
+const menSportswearBottomsLeggingsSelected = document.querySelector(".men-sportswear-bottoms-leggings-selected-icon");
+const menSportswearBottomsCompressionShortsSelected = document.querySelector(".men-sportswear-bottoms-compression-shorts-selected-icon");
+const menSportswearBottomsOtherSelected = document.querySelector(".men-sportswear-bottoms-other-selected-icon");
+
+
+
+// men nightwear
+const menNightwearOnePiecePyjamas = document.querySelector(".category-men-nightwear-one-piece-pyjamas");
+const menNightwearPyjamaSets = document.querySelector(".category-men-nightwear-pyjama-sets");
+const menNightwearPyjamaBottoms = document.querySelector(".category-men-nightwear-pyjama-bottoms");
+const menNightwearPyjamaTops = document.querySelector(".category-men-nightwear-pyjama-tops");
+const menNightwearOnesies = document.querySelector(".category-men-nightwear-onesies");
+const menNightwearOther = document.querySelector(".category-men-nightwear-other");
+
+// men nightwear select icons
+const menNightwearOnePiecePyjamasSelect = document.querySelector(".men-nightwear-one-piece-pyjamas-select-icon");
+const menNightwearPyjamaSetsSelect = document.querySelector(".men-nightwear-pyjama-sets-select-icon");
+const menNightwearPyjamaBottomsSelect = document.querySelector(".men-nightwear-pyjama-bottoms-select-icon");
+const menNightwearPyjamaTopsSelect = document.querySelector(".men-nightwear-pyjama-tops-select-icon");
+const menNightwearOnesiesSelect = document.querySelector(".men-nightwear-onesies-select-icon");
+const menNightwearOtherSelect = document.querySelector(".men-nightwear-other-select-icon");
+
+// men nightwear selected icons
+const menNightwearOnePiecePyjamasSelected = document.querySelector(".men-nightwear-one-piece-pyjamas-selected-icon");
+const menNightwearPyjamaSetsSelected = document.querySelector(".men-nightwear-pyjama-sets-selected-icon");
+const menNightwearPyjamaBottomsSelected = document.querySelector(".men-nightwear-pyjama-bottoms-selected-icon");
+const menNightwearPyjamaTopsSelected = document.querySelector(".men-nightwear-pyjama-tops-selected-icon");
+const menNightwearOnesiesSelected = document.querySelector(".men-nightwear-onesies-selected-icon");
+const menNightwearOtherSelected = document.querySelector(".men-nightwear-other-selected-icon");
+
+
+
+// men underwear
+const menUnderwearBoxers = document.querySelector(".category-men-underwear-boxers");
+const menUnderwearBriefs = document.querySelector(".category-men-underwear-briefs");
+const menUnderwearSocks = document.querySelector(".category-men-underwear-socks");
+const menUnderwearOther = document.querySelector(".category-men-underwear-other");
+
+//men underwear select icons
+const menUnderwearBoxersSelect = document.querySelector(".men-underwear-boxers-select-icon");
+const menUnderwearBriefsSelect = document.querySelector(".men-underwear-briefs-select-icon");
+const menUnderwearSocksSelect = document.querySelector(".men-underwear-socks-select-icon");
+const menUnderwearOtherSelect = document.querySelector(".men-underwear-other-select-icon");
+
+//men underwear selected icons
+const menUnderwearBoxersSelected = document.querySelector(".men-underwear-boxers-selected-icon");
+const menUnderwearBriefsSelected = document.querySelector(".men-underwear-briefs-selected-icon");
+const menUnderwearSocksSelected = document.querySelector(".men-underwear-socks-selected-icon");
+const menUnderwearOtherSelected = document.querySelector(".men-underwear-other-selected-icon");
+
+
+
+// men swimwear
+const menSwimwearSwimShorts = document.querySelector(".category-men-swimwear-swim-shorts");
+const menSwimwearSwimTops = document.querySelector(".category-men-swimwear-swim-tops");
+const menSwimwearSwimSets = document.querySelector(".category-men-swimwear-swim-sets");
+const menSwimwearWetsuits = document.querySelector(".category-men-swimwear-wetsuits");
+const menSwimwearOther = document.querySelector(".category-men-swimwear-other");
+
+// men swimwear select icons
+const menSwimwearSwimShortsSelect = document.querySelector(".men-swimwear-swim-shorts-select-icon");
+const menSwimwearSwimTopsSelect = document.querySelector(".men-swimwear-swim-tops-select-icon");
+const menSwimwearSwimSetsSelect = document.querySelector(".men-swimwear-swim-sets-select-icon");
+const menSwimwearWetsuitsSelect = document.querySelector(".men-swimwear-wetsuits-select-icon");
+const menSwimwearOtherSelect = document.querySelector(".men-swimwear-other-select-icon");
+
+// men swimwear selected icons
+const menSwimwearSwimShortsSelected = document.querySelector(".men-swimwear-swim-shorts-selected-icon");
+const menSwimwearSwimTopsSelected = document.querySelector(".men-swimwear-swim-tops-selected-icon");
+const menSwimwearSwimSetsSelected = document.querySelector(".men-swimwear-swim-sets-selected-icon");
+const menSwimwearWetsuitsSelected = document.querySelector(".men-swimwear-wetsuits-selected-icon");
+const menSwimwearOtherSelected = document.querySelector(".men-swimwear-other-selected-icon");
