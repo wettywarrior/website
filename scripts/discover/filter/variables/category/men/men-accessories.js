@@ -4,6 +4,7 @@ const menBelts = document.querySelector(".category-men-accessories-belts");
 const menHats = document.querySelector(".category-men-accessories-hats");
 const menGloves = document.querySelector(".category-men-accessories-gloves");
 const menScarves = document.querySelector(".category-men-accessories-scarves");
+const menSportswearAccessories = document.querySelector(".category-men-accessories-sportswear");
 const menSunglasses = document.querySelector(".category-men-accessories-sunglasses");
 const menWalletsCardholders = document.querySelector(".category-men-accessories-wallets-cardholders");
 const menJewellery = document.querySelector(".category-men-accessories-jewellery");
