@@ -55,6 +55,9 @@ function filterBackButtonFunction() {
   } else if(filterActiveTabBack === "menAccessories"){
     hideMenAccessoriesPage()
     renderMenPage()
+  } else if(filterActiveTabBack === "menAccessoriesBags"){
+    hideMenBagsPage()
+    renderMenAccessoriesPage()
   }
 }
 

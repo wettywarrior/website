@@ -102,12 +102,20 @@
 .category-men-accessories-gloves,  
 .category-men-accessories-scarves,
 .category-men-accessories-sportswear,
-.category-men-accessories-sunglasses,  
+.category-men-accessories-sunglasses,
+.category-men-accessories-ties,
 .category-men-accessories-wallets-cardholders,  
 .category-men-accessories-jewellery,  
-.category-men-accessories-watches,  
-.category-men-accessories-hair-accessories,  
-.category-men-accessories-other
+.category-men-accessories-watches,
+.category-men-bags-backpacks,
+.category-men-bags-briefcases,
+.category-men-bags-bum-bags,
+.category-men-bags-gym-bags,
+.category-men-bags-duffel-bags,
+.category-men-bags-luggage,
+.category-men-bags-shoulder-bags,
+.category-men-bags-tote-bags,
+.category-men-bags-other
 {
   margin-top: 5px;
   position: relative;
@@ -249,12 +257,21 @@
 .category-men-accessories-gloves:hover,  
 .category-men-accessories-scarves:hover,
 .category-men-accessories-sportswear:hover,  
-.category-men-accessories-sunglasses:hover,  
+.category-men-accessories-sunglasses:hover,
+.category-men-accessories-ties:hover,
 .category-men-accessories-wallets-cardholders:hover,  
 .category-men-accessories-jewellery:hover,  
-.category-men-accessories-watches:hover,  
-.category-men-accessories-hair-accessories:hover,  
-.category-men-accessories-other:hover
+.category-men-accessories-watches:hover,
+.category-men-bags-backpacks:hover,
+.category-men-bags-briefcases:hover,
+.category-men-bags-bum-bags:hover,
+.category-men-bags-gym-bags:hover,
+.category-men-bags-duffel-bags:hover,
+.category-men-bags-luggage:hover,
+.category-men-bags-shoulder-bags:hover,
+.category-men-bags-tote-bags:hover,
+.category-men-bags-other:hover
+
 {
   background-color: rgba(15, 17, 19, 255);
 }
@@ -336,7 +353,17 @@
 .men-swimwear-swim-tops-select-icon,
 .men-swimwear-swim-sets-select-icon,
 .men-swimwear-wetsuits-select-icon,
-.men-swimwear-other-select-icon
+.men-swimwear-other-select-icon,
+.men-accessories-scarves-select-icon,
+.men-bags-backpacks-select-icon,
+.men-bags-briefcases-select-icon,
+.men-bags-bum-bags-select-icon,
+.men-bags-gym-bags-select-icon,
+.men-bags-duffel-bags-select-icon,
+.men-bags-luggage-select-icon,
+.men-bags-shoulder-bags-select-icon,
+.men-bags-tote-bags-select-icon,
+.men-bags-other-select-icon
 {
   height: 12px;
 }
@@ -416,7 +443,17 @@
 .men-swimwear-swim-tops-selected-icon,
 .men-swimwear-swim-sets-selected-icon,
 .men-swimwear-wetsuits-selected-icon,
-.men-swimwear-other-selected-icon
+.men-swimwear-other-selected-icon,
+.men-accessories-scarves-selected-icon,
+.men-bags-backpacks-selected-icon,
+.men-bags-briefcases-selected-icon,
+.men-bags-bum-bags-selected-icon,
+.men-bags-gym-bags-selected-icon,
+.men-bags-duffel-bags-selected-icon,
+.men-bags-luggage-selected-icon,
+.men-bags-shoulder-bags-selected-icon,
+.men-bags-tote-bags-selected-icon,
+.men-bags-other-selected-icon
 {
   display: none;
   height: 12px;

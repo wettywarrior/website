@@ -76,7 +76,16 @@ function selectProduct() {
   menSwimwearSwimSetsSelect.style.display = "block";
   menSwimwearWetsuitsSelect.style.display = "block";
   menSwimwearOtherSelect.style.display = "block";
-
+  menScarvesSelect.style.display = "block";
+  menBagsBackpacksSelect.style.display = "block";
+  menBagsBriefcasesSelect.style.display = "block";
+  menBagsBumBagsSelect.style.display = "block";
+  menBagsGymBagsSelect.style.display = "block";
+  menBagsDuffelBagsSelect.style.display = "block";
+  menBagsLuggageSelect.style.display = "block";
+  menBagsShoulderBagsSelect.style.display = "block";
+  menBagsToteBagsSelect.style.display = "block";
+  menBagsOtherSelect.style.display = "block";
 
   menFancyDressSelected.style.display = "none";
   menTracksuitsSelected.style.display = "none";
@@ -153,6 +162,16 @@ function selectProduct() {
   menSwimwearSwimSetsSelected.style.display = "none";
   menSwimwearWetsuitsSelected.style.display = "none";
   menSwimwearOtherSelected.style.display = "none";
+  menScarvesSelected.style.display = "none";
+  menBagsBackpacksSelected.style.display = "none";
+  menBagsBriefcasesSelected.style.display = "none";
+  menBagsBumBagsSelected.style.display = "none";
+  menBagsGymBagsSelected.style.display = "none";
+  menBagsDuffelBagsSelected.style.display = "none";
+  menBagsLuggageSelected.style.display = "none";
+  menBagsShoulderBagsSelected.style.display = "none";
+  menBagsToteBagsSelected.style.display = "none";
+  menBagsOtherSelected.style.display = "none";
 }
 
 
@@ -534,10 +553,10 @@ function renderMenAccessoriesPage() {
   menScarves.style.display = "flex";
   menSportswearAccessories.style.display = "flex";
   menSunglasses.style.display = "flex";
+  menTies.style.display = "flex";
   menWalletsCardholders.style.display = "flex";
   menJewellery.style.display = "flex";
   menWatches.style.display = "flex";
-  menHairAccessories.style.display = "flex";
   filterCurrentTab.innerHTML = "Accessories";
   filterActiveTabBack = "menAccessories";
   checkFilterActiveTab();
@@ -551,10 +570,39 @@ function hideMenAccessoriesPage() {
   menScarves.style.display = "none";
   menSportswearAccessories.style.display = "none";
   menSunglasses.style.display = "none";
+  menTies.style.display = "none";
   menWalletsCardholders.style.display = "none";
   menJewellery.style.display = "none";
   menWatches.style.display = "none";
-  menHairAccessories.style.display = "none";
+}
+
+// men bags
+
+function renderMenBagsPage() {
+  menBagsBackpacks.style.display = "flex";
+  menBagsBriefcases.style.display = "flex";
+  menBagsBumBags.style.display = "flex";
+  menBagsGymBags.style.display = "flex";
+  menBagsDuffelBags.style.display = "flex";
+  menBagsLuggage.style.display = "flex";
+  menBagsShoulderBags.style.display = "flex";
+  menBagsToteBags.style.display = "flex";
+  menBagsOther.style.display = "flex";
+  filterCurrentTab.innerHTML = "Bags";
+  filterActiveTabBack = "menAccessoriesBags";
+  checkFilterActiveTab();
+}
+
+function hideMenBagsPage() {
+  menBagsBackpacks.style.display = "none";
+  menBagsBriefcases.style.display = "none";
+  menBagsBumBags.style.display = "none";
+  menBagsGymBags.style.display = "none";
+  menBagsDuffelBags.style.display = "none";
+  menBagsLuggage.style.display = "none";
+  menBagsShoulderBags.style.display = "none";
+  menBagsToteBags.style.display = "none";
+  menBagsOther.style.display = "none";
 }
 
 
