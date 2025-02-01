@@ -522,3 +522,39 @@ function hideMenSwimwearPage() {
   menSwimwearOther.style.display = "none";
 }
 
+
+
+// men accessories
+
+function renderMenAccessoriesPage() {
+  menBags.style.display = "flex";
+  menBelts.style.display = "flex";
+  menHats.style.display = "flex";
+  menGloves.style.display = "flex";
+  menScarves.style.display = "flex";
+  menSunglasses.style.display = "flex";
+  menWalletsCardholders.style.display = "flex";
+  menJewellery.style.display = "flex";
+  menWatches.style.display = "flex";
+  menHairAccessories.style.display = "flex";
+  menOther.style.display = "flex";
+  filterCurrentTab.innerHTML = "Accessories";
+  filterActiveTabBack = "menAccessories";
+  checkFilterActiveTab();
+}
+
+function hideMenAccessoriesPage() {
+  menBags.style.display = "none";
+  menBelts.style.display = "none";
+  menHats.style.display = "none";
+  menGloves.style.display = "none";
+  menScarves.style.display = "none";
+  menSunglasses.style.display = "none";
+  menWalletsCardholders.style.display = "none";
+  menJewellery.style.display = "none";
+  menWatches.style.display = "none";
+  menHairAccessories.style.display = "none";
+  menOther.style.display = "none";
+}
+
+
