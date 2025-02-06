@@ -363,7 +363,8 @@
 .men-bags-luggage-select-icon,
 .men-bags-shoulder-bags-select-icon,
 .men-bags-tote-bags-select-icon,
-.men-bags-other-select-icon
+.men-bags-other-select-icon,
+.men-accessories-belts-select-icon
 {
   height: 12px;
 }
@@ -453,7 +454,8 @@
 .men-bags-luggage-selected-icon,
 .men-bags-shoulder-bags-selected-icon,
 .men-bags-tote-bags-selected-icon,
-.men-bags-other-selected-icon
+.men-bags-other-selected-icon,
+.men-accessories-belts-selected-icon
 {
   display: none;
   height: 12px;

@@ -5,6 +5,13 @@ menScarves.addEventListener("click", function () {
   selectedProduct = "menScarves";
 });
 
+menBelts.addEventListener("click", function () {
+  selectProduct();
+  menBeltsSelect.style.display = "none";
+  menBeltsSelected.style.display = "block";
+  selectedProduct = "menBelts";
+});
+
 // men bags
 
 menBagsBackpacks.addEventListener("click", function () {

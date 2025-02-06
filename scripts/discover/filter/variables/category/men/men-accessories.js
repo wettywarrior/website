@@ -13,9 +13,13 @@ const menWatches = document.querySelector(".category-men-accessories-watches");
 
 // men accessories select buttons
 const menScarvesSelect = document.querySelector(".men-accessories-scarves-select-icon");
+const menBeltsSelect = document.querySelector(".men-accessories-belts-select-icon");
+
 
 // men accessories selected buttons
 const menScarvesSelected = document.querySelector(".men-accessories-scarves-selected-icon");
+const menBeltsSelected = document.querySelector(".men-accessories-belts-selected-icon");
+
 
 // men bags
 const menBagsBackpacks = document.querySelector(".category-men-bags-backpacks");

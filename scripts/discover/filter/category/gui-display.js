@@ -86,6 +86,7 @@ function selectProduct() {
   menBagsShoulderBagsSelect.style.display = "block";
   menBagsToteBagsSelect.style.display = "block";
   menBagsOtherSelect.style.display = "block";
+  menBeltsSelect.style.display = "block";
 
   menFancyDressSelected.style.display = "none";
   menTracksuitsSelected.style.display = "none";
@@ -172,6 +173,7 @@ function selectProduct() {
   menBagsShoulderBagsSelected.style.display = "none";
   menBagsToteBagsSelected.style.display = "none";
   menBagsOtherSelected.style.display = "none";
+  menBeltsSelected.style.display = "none";
 }
 
 
