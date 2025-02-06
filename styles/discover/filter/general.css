@@ -64,6 +64,7 @@
 }
 
 .filter {
+  z-index: 100;
   border-radius: 25px;
   position: fixed;
   background-color: rgb(25,28,31);
