@@ -554,7 +554,7 @@ function renderMenAccessoriesPage() {
   menGloves.style.display = "flex";
   menScarves.style.display = "flex";
   menSportswearAccessories.style.display = "flex";
-  menSunglasses.style.display = "flex";
+  meneyewear.style.display = "flex";
   menTies.style.display = "flex";
   menWalletsCardholders.style.display = "flex";
   menJewellery.style.display = "flex";
@@ -571,7 +571,7 @@ function hideMenAccessoriesPage() {
   menGloves.style.display = "none";
   menScarves.style.display = "none";
   menSportswearAccessories.style.display = "none";
-  menSunglasses.style.display = "none";
+  meneyewear.style.display = "none";
   menTies.style.display = "none";
   menWalletsCardholders.style.display = "none";
   menJewellery.style.display = "none";
